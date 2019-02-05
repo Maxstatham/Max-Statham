@@ -1,0 +1,51 @@
+body {
+  background-image: url(photo2.jpg);
+}
+
+.title {
+  width: 500px;
+  height: 75px;
+  padding-top: 50px;
+  padding-left: 30px;
+  font-size: 38px;
+  color: #232323;
+  font: courier;
+  font-family: monospace;
+  font-weight: 500;
+}
+
+a:link {
+  text-decoration: none;
+  text-decoration-color: none;
+}
+
+a:visited {
+  color: #232323;
+}
+
+p {
+  width: 90%;
+  padding-left: 30px;
+  font-size: 15px;
+  color: #232323;
+  font: courier;
+  font-family: monospace;
+}
+
+.heading{
+  padding-left: 30px;
+  padding-bottom: 35px;
+  font-size: 25px;
+  color: #232323;
+  font: courier;
+  font-family: monospace;
+}
+
+.question {
+  padding-left: 30px;
+  padding-bottom: 0px;
+  font-size: 18px;
+  color: #232323;
+  font: courier;
+  font-family: monospace;
+}
