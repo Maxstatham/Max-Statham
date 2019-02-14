@@ -1,0 +1,110 @@
+body {
+  background-image: url(background.jpg);
+}
+
+@font-face {
+  font-family: brandongrotesque;
+  src: url(Brandon_bld.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: brandongrotesque;
+  src: url(Brandon_reg.otf);
+}
+
+ul {
+  width: 100%;
+  list-style-type: none;
+  margin: 0px;
+  padding-top: 25px;
+  padding-left: 5px;
+  background-color: #151515;
+  margin-top: -10px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: #3e3d3d;
+  text-align: center;
+  padding-right: 75px;
+  text-decoration: none;
+  font-family: brandongrotesque;
+  font-size: 10px;
+  letter-spacing: 3px;
+}
+
+.logo1 {
+  padding-left: 30px;
+}
+
+.logo {
+  width: 30px;
+}
+
+.insta {
+  float: right;
+  width: 20px;
+  padding-right: 50px
+}
+
+.fb {
+  float: right;
+  width: 20px;
+  padding-right: 30px
+}
+
+.linkdin {
+  float: right;
+  width: 20px;
+  padding-right: 30px
+}
+
+.title {
+  width: 300px;
+  margin: auto;
+  margin-top: 240px;
+  padding-right: 75px;
+  color: #eec3a6;
+  font-family: brandongrotesque;
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  transform: scale(1, 0.9);
+  display: block;
+
+}
+
+.MCLSTR {
+  text-decoration: none;
+  color: #eec3a6;
+}
+
+.MCLSTR:visited {
+  text-decoration: none;
+  color: #eec3a6;
+}
+
+.MCLSTR:hover {
+  opacity: 0.5;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.MCLSTR:active {
+  background-color: none;
+}
+
+
+.sub {
+  color: #3e3d3d;
+  text-align: center;
+  text-decoration: none;
+  font-family: brandongrotesque;
+  font-size: 18px;
+  padding-right: 5px;
+  letter-spacing: 4px;
+  margin-top: -5px;
+}
