@@ -1,5 +1,5 @@
 body {
-  background-image: url(background7.jpg);
+  background-image: url(background5.jpg);
 }
 @font-face {
   font-family: brandongrotesque;
@@ -102,7 +102,7 @@ li a:hover {
 }
 
 p {
-  width: 1000px;
+  width: 200px;
   margin: auto;
   text-decoration: none;
   font-family: brandongrotesque;
@@ -122,4 +122,3 @@ p {
 .work:hover {
   opacity: 0.5;
   transition: all 0.4s ease-in-out 0s;
-}
