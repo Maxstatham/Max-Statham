@@ -102,12 +102,14 @@ li a:hover {
 }
 
 p {
-  width: 1000px;
+  width: 800px;
   margin: auto;
   text-decoration: none;
   font-family: brandongrotesque;
-  font-size: 20px;
+  font-size: 18px;
   color: #eec3a6;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .work {

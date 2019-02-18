@@ -106,8 +106,9 @@ p {
   margin: auto;
   text-decoration: none;
   font-family: brandongrotesque;
-  font-size: 20px;
+  font-size: 18px;
   color: #eec3a6;
+  text-align: center;
 }
 
 .work {
