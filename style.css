@@ -34,13 +34,12 @@ a:visited {
 
 table {
   float: right;
-  margin-right: 60px;
+  margin-right: 40px;
   margin-top: -80px;
 }
 
 td {
   height: 52px;
-  padding-right: 10px;
 }
 
 .WKLYS {
