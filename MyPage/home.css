@@ -22,6 +22,7 @@ ul {
   padding-bottom: 10px;
   background-color: #151515;
   margin-top: -10px;
+  margin-left: -8px;
 }
 li {
   float: left;
@@ -63,7 +64,7 @@ li a:hover {
 .insta {
   float: right;
   width: 20px;
-  padding-right: 50px
+  padding-right: 30px
 }
 .fb {
   float: right;

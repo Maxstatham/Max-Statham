@@ -20,6 +20,7 @@ ul {
   background-color: #151515;
   position:fixed;
   margin-top: -10px;
+  margin-left: -8px;
 }
 li {
   float: left;
@@ -64,7 +65,7 @@ li a:hover {
 .insta {
   float: right;
   width: 20px;
-  padding-right: 65px;
+  padding-right: 45px;
 }
 
 .fb {
@@ -87,7 +88,7 @@ li a:hover {
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 5px;
-  padding-top: 200px;
+  padding-top: 150px;
 }
 
 .byline {
@@ -98,7 +99,7 @@ li a:hover {
   font-size: 15px;
   letter-spacing: 3px;
   padding-top: 20px;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
 }
 
 p {
@@ -120,6 +121,6 @@ p {
 }
 
 .work:hover {
-  opacity: 0.5;
+  opacity: 0.7;
   transition: all 0.4s ease-in-out 0s;
 }
