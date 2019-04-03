@@ -1,0 +1,84 @@
+body {
+  background-color: black;
+  background-image: url(background.jpg);
+}
+
+@@font-face {
+  font-family: Copperplate;
+  src: url(Copperplate.ttc);
+}
+
+.cup {
+  float: right;
+  width: 420px;
+  margin-right: 80px;
+  margin-top: 228px;
+  -webkit-animation-name: glow;
+  -webkit-animation-duration: 2s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+.title {
+  margin-top: 25px;
+  margin-left: 40px;
+  width: 570px;
+  -webkit-animation-name: appear;
+  -webkit-animation-duration: 2s;
+}
+
+p {
+  margin-top: 80px;
+  width: 50%;
+  margin-left: 60px;
+  font-family: Copperplate;
+  font-weight: lighter;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #5edee9;
+  -webkit-animation-name: appear;
+  -webkit-animation-duration: 2s;
+}
+
+.start {
+  font-family: Copperplate;
+  margin-top: 80px;
+  display: block;
+  background-color: white;
+  margin-left: 60px;
+  width: 20%;
+  height: 50px;
+  vertical-align: middle;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  font-size: 28px;
+  -webkit-animation-name: appear;
+  -webkit-animation-duration: 2s;
+}
+
+a:link {
+  text-decoration: none;
+  color: Black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: Black;
+}
+
+a:hover {
+  color: #5edee9;
+  opacity: 0.7;
+}
+
+@-webkit-keyframes glow {
+  0% {opacity: 1;}
+  50% {opacity: 0.3;}
+  100% {opacity: 1;}
+}
+
+@-webkit-keyframes appear {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
