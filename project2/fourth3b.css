@@ -25,7 +25,7 @@ body {
 }
 
 .up {
-  margin-top: 290px;
+  margin-top: 315px;
   -webkit-animation: uparrow 0.6s infinite alternate ease-in-out;
   border-bottom:2em solid #5edee9;
 }

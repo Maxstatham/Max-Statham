@@ -1,5 +1,5 @@
 body {
-  background-image: url(background4.jpg);
+  background-image: url(background6.jpg);
 }
 
 @-webkit-keyframes uparrow {
@@ -9,6 +9,11 @@ body {
 @-webkit-keyframes leftarrow {
   0% { -webkit-transform: translateX(-0.4em); opacity: 0.4 }
   100% { -webkit-transform: translateX(0); opacity: 0.9 }
+}
+
+@-webkit-keyframes rightarrow {
+  0% { -webkit-transform: translateX(0); opacity: 0.4 }
+  100% { -webkit-transform: translateX(-0.4em); opacity: 0.9 }
 }
 
 .arrow {
@@ -25,7 +30,7 @@ body {
 }
 
 .up {
-  margin-top: 400px;
+  margin-top: 270px;
   -webkit-animation: uparrow 0.6s infinite alternate ease-in-out;
   border-bottom:2em solid #5edee9;
 }
@@ -36,4 +41,28 @@ body {
   margin-top: -100px;
   -webkit-animation: leftarrow 0.6s infinite alternate ease-in-out;
   border-right:2em solid #5edee9;
+}
+
+.right {
+  margin-top: -240px;
+  margin-left: 870px;
+  border-width:2.5em 0;
+  -webkit-animation: rightarrow 0.6s infinite alternate ease-in-out;
+  border-left:2em solid #5edee9;
+}
+
+.text {
+  width: 400px;
+  font-family: Copperplate;
+  font-size: 20px;
+  color: white;
+  margin-top: 50px;
+  margin-left: 50px;
+  -webkit-animation-name: appear;
+  -webkit-animation-duration: 3s;
+}
+
+@-webkit-keyframes appear {
+  0% {opacity: 0;}
+  100% {opacity: 0.9;}
 }

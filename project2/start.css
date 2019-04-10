@@ -40,7 +40,24 @@ body {
   -webkit-animation-duration: 3s;
 }
 
+.dare {
+  font-family: Copperplate;
+  text-align: center;
+  margin-top: 10px;
+  display: block;
+  color: white;
+  font-size: 16px;
+  -webkit-animation-name: Bruh;
+  -webkit-animation-duration: 2.5s;
+}
+
 @-webkit-keyframes appear {
   0% {opacity: 0;}
   100% {opacity: 1;}
+}
+
+@-webkit-keyframes Bruh {
+0% {opacity: 0;}
+50% {opacity: 0;}
+100% {opacity: 1;}
 }

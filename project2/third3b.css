@@ -1,38 +1,50 @@
 body {
-  background-image: url(background88.jpg);
+  background-image: url(background3.jpg);
 }
 
-.cup {
-  width: 230px;
-  margin-top: 170px;
-  margin-left: 600px;
-  -webkit-animation-name: glow;
-  -webkit-animation-duration: 2s;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-}
-
-.text {
-  font-family: Copperplate;
-  text-align: center;
-  margin-top: 30px;
-  display: block;
-  color: white;
-  font-size: 30px;
+.spider {
+  width: 800px;
+  margin-top: 135px;
+  margin-left: 300px;
   -webkit-animation-name: appear;
-  -webkit-animation-duration: 3s;
+  -webkit-animation-duration: 1.5s;
 }
 
-.sub {
+#overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(199,37,37,0.5);
+  z-index: 2;
+  -webkit-animation-name: Dude;
+  -webkit-animation-duration: 2s;
+}
+
+#text {
+  font-family: Copperplate;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-size: 30px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+#sub {
   margin-top: 10px;
   font-family: Copperplate;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 350px;
   display: block;
   color: white;
   font-size: 16px;
   -webkit-animation-name: Bruh;
-  -webkit-animation-duration: 2.5s;
+  -webkit-animation-duration: 4.5s;
 }
 
 .start {
@@ -50,7 +62,7 @@ body {
   line-height: 40px;
   font-size: 28px;
   -webkit-animation-name: Dude;
-  -webkit-animation-duration: 3s;
+  -webkit-animation-duration: 4.5s;
 }
 
 a:link {
@@ -70,7 +82,7 @@ a:hover {
 
 @-webkit-keyframes appear {
   0% {opacity: 0;}
-  100% {opacity: 0.9;}
+  100% {opacity: 1;}
 }
 
 @-webkit-keyframes Bruh {
@@ -84,10 +96,4 @@ a:hover {
 50% {opacity: 0;}
 75% {opacity: 0;}
 100% {opacity: 1;}
-}
-
-@-webkit-keyframes glow {
-  0% {opacity: 1;}
-  50% {opacity: 0.6;}
-  100% {opacity: 1;}
 }

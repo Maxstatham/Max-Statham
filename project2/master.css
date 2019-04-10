@@ -24,7 +24,7 @@ body {
   margin-left: 40px;
   width: 570px;
   -webkit-animation-name: appear;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 3s;
 }
 
 p {
@@ -37,7 +37,7 @@ p {
   line-height: 1.2;
   color: #5edee9;
   -webkit-animation-name: appear;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 3s;
 }
 
 .start {
@@ -54,7 +54,7 @@ p {
   line-height: 50px;
   font-size: 28px;
   -webkit-animation-name: appear;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 3s;
 }
 
 a:link {
@@ -80,5 +80,5 @@ a:hover {
 
 @-webkit-keyframes appear {
   0% {opacity: 0;}
-  100% {opacity: 1;}
+  100% {opacity: 0.9;}
 }
