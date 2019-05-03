@@ -1,9 +1,13 @@
-body {
-  background-image: url(graveyard1.jpg);
+html {
+  background: url(graveyard1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .voldy {
-  width: 800px;
+  width: 50%;
   margin-top: 135px;
   margin-left: 150px;
   -webkit-animation-name: appear;
@@ -26,25 +30,21 @@ body {
 
 #text {
   font-family: Copperplate;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  font-size: 30px;
+  text-align: center;
+  margin-top: 20%;
+  font-size: 40px;
   color: white;
-  transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
 }
 
 #sub {
-  margin-top: 10px;
   font-family: Copperplate;
   text-align: center;
-  margin-top: 350px;
+  margin-top: 30px;
   display: block;
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   -webkit-animation-name: Bruh;
-  -webkit-animation-duration: 5.5s;
+  -webkit-animation-duration: 4.5s;
 }
 
 .start {

@@ -1,5 +1,9 @@
-body {
-  background-image: url(background22.jpg);
+html {
+  background: url(background22.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 @-webkit-keyframes rightarrow {
@@ -11,39 +15,45 @@ body {
   100% { -webkit-transform: translateX(-0.4em); opacity: 0.9 }
 }
 
-.arrow {
+.arrowleft {
+  float: left;
   border-color:transparent;
   border-style:solid;
-  border-width:0 2.5em;
-  display:inline-block;
+  border-width:2.5em 0;
+  display:block;
   height:0;
-  margin:10em auto;
+  margin-left: 35%;
+  margin-top: 25%;
   opacity:0.4;
   text-indent:-9999px;
   transform-origin: 50% 50%;
   width:0;
-}
-
-.right {
-  border-width:2.5em 0;
-  margin-left: 525px;
-  margin-top: 382px;
-  -webkit-animation: rightarrow 0.6s infinite alternate ease-in-out;
+  -webkit-animation: leftarrow 0.6s infinite alternate ease-in-out;
   border-right:2em solid #5edee9;
 }
 
-.left {
+.arrowright {
+  float:right;
+  border-color:transparent;
+  border-style:solid;
   border-width:2.5em 0;
-  margin-left: 300px;
-  margin-top: 100px;
-  -webkit-animation: leftarrow 0.6s infinite alternate ease-in-out;
+  display:block;
+  height:0;
+  margin-right: 35%;
+  margin-top: 25%;
+  opacity:0.4;
+  text-indent:-9999px;
+  transform-origin: 50% 50%;
+  width:0;
+  -webkit-animation: rightarrow 0.6s infinite alternate ease-in-out;
   border-left:2em solid #5edee9;
 }
 
 .text {
-  width: 400px;
+  width: 600px;
+  height: 100px;
   font-family: Copperplate;
-  font-size: 20px;
+  font-size: 30px;
   color: white;
   margin-top: 50px;
   margin-left: 50px;

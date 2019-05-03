@@ -1,26 +1,29 @@
-body {
-  background-image: url(background7.jpg);
+html {
+  background: url(background7.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .text {
   font-family: Copperplate;
   text-align: center;
-  margin-top: 350px;
+  margin-top: 20%;
   display: block;
   color: black;
-  font-size: 30px;
+  font-size: 40px;
   -webkit-animation-name: appear;
   -webkit-animation-duration: 3s;
 }
 
 .sub {
-  margin-top: 10px;
   font-family: Copperplate;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 40px;
   display: block;
   color: black;
-  font-size: 16px;
+  font-size: 20px;
   -webkit-animation-name: Bruh;
   -webkit-animation-duration: 2.5s;
 }

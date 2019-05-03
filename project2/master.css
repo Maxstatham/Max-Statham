@@ -1,6 +1,9 @@
-body {
-  background-color: black;
-  background-image: url(background.jpg);
+html {
+  background: url(background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 @@font-face {
@@ -9,10 +12,10 @@ body {
 }
 
 .cup {
-  float: right;
-  width: 420px;
-  margin-right: 80px;
-  margin-top: 228px;
+  position: fixed;
+  bottom: 0;
+  right: 120px;
+  height: 75%;
   -webkit-animation-name: glow;
   -webkit-animation-duration: 2s;
   animation-delay: 2s;

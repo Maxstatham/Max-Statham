@@ -1,5 +1,9 @@
-body {
-  background-image: url(background.jpg);
+html {
+  background: url(background10.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 @font-face {
@@ -81,7 +85,7 @@ li a:hover {
 .title {
   width: 300px;
   margin: auto;
-  margin-top: 240px;
+  margin-top: 18%;
   padding-right: 75px;
   color: #eec3a6;
   font-family: brandongrotesque;

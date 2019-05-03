@@ -1,5 +1,9 @@
-body {
-  background-image: url(background1.jpg);
+html {
+  background: url(background1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 @-webkit-keyframes uparrow {
@@ -32,7 +36,7 @@ body {
 .enter {
   font-family: Copperplate;
   text-align: center;
-  margin-top: 350px;
+  margin-top: 25%;
   display: block;
   color: white;
   font-size: 30px;
@@ -46,7 +50,7 @@ body {
   margin-top: 10px;
   display: block;
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   -webkit-animation-name: Bruh;
   -webkit-animation-duration: 2.5s;
 }
