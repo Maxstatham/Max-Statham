@@ -1,0 +1,130 @@
+h1 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 70pt;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+h2 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  font-size: 50pt;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+h3 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  font-size: 25pt;
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+h4 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  font-size: 18pt;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+h5 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 25pt;
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+}
+
+
+
+div.popup {
+  display: inline-block;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 0px 7px 20px black;
+  max-inline-size: 550px;
+  background-color: #00256f;
+  position: absolute;
+  margin-top: -900px;
+  margin-left: 445px;
+  -webkit-animation: DISSOLVE_IN 1s;
+}
+
+div.title {
+  margin: auto;
+  width: 700px;
+}
+
+div.begin_button {
+  margin: auto;
+  width: 200px;
+}
+
+a {
+  color: green;
+}
+
+span.AusButton {
+  display: inline-block;
+  width: 50%;
+}
+
+span.USAButton {
+  display: inline-block;
+  width: 49%;
+}
+
+span.AusFlag {
+  display: inline-block;
+  width: 20%;
+  margin-top: 5%;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+span.USAFlag {
+  display: inline-block;
+  width: 20%;
+  margin-top: 5%;
+  margin-right: 14%;
+  margin-left: 15%;
+}
+
+div.splash_title {
+  margin-top: 10%;
+}
+
+@keyframes DISSOLVE_IN {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

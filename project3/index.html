@@ -1,0 +1,102 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/wec7wgp.css">
+  <title>Learn Slang</title>
+</head>
+
+<body style="background-color:#000000;">
+
+<div class="splash_title">
+  <h5>Where are you from?</h5>
+</div>
+
+<span class="AusFlag"> <img src="Assets/Aus_Flag.svg" alt=""> </span>
+<span class="USAFlag"> <img src="Assets/USA_Flag.svg" alt=""> </span>
+
+  <span class="AusButton">
+    <span id="ozS"></span>
+    <script type="text/javascript">
+      /* Random Sentence w/Cookie script
+       * All credits must remain for legal use */
+
+      // Cookie code from: http://www.quirksmode.org/js/cookies.html
+      function createCookie(name, value) {
+        document.cookie = name + "=" + value + "; path=/";
+      }
+
+      function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+          if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+      }
+
+      function rs() { // Random Sentence on Refresh w/Cookie - jscheuer1 - http://www.dynamicdrive.com/forums
+        var s = [
+          '<span class="ozS"><a href="aus_splash.html"><h5>The Land Down Under</h5></a></span>',
+          '<span class="ozS"><a href="aus_splash.html"><h5>Straya</h5></a></span>',
+          '<span class="ozS"><a href="aus_splash.html"><h5>Australia Fair</h5></a></span>',
+          '<span class="ozS"><a href="aus_splash.html"><h5>Oz</h5></a></span>',
+          '<span class="ozS"><a href="aus_splash.html"><h5>West New Zealand</h5></a></span>'
+        ];
+        s.sort(function() {
+          return 0.5 - Math.random();
+        }) //thanks to Mike (aka Mwinter) :)
+        var sn = readCookie('sen') && readCookie('sen') == s[0] ? s[1] : s[0];
+        document.getElementById('ozS').innerHTML = sn;
+        createCookie('sen', sn)
+      }
+      rs();
+    </script>
+  </span>
+
+  <span class="USAButton">
+    <span id="usaS"></span>
+    <script type="text/javascript">
+      /* Random Sentence w/Cookie script
+       * All credits must remain for legal use */
+
+      // Cookie code from: http://www.quirksmode.org/js/cookies.html
+      function createCookie(name, value) {
+        document.cookie = name + "=" + value + "; path=/";
+      }
+
+      function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+          if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+      }
+
+      function rs() { // Random Sentence on Refresh w/Cookie - jscheuer1 - http://www.dynamicdrive.com/forums
+        var s = [
+          '<span class="usaS"><a href="usa_splash.html"><h5>The Land of the Free</h5></a></span>',
+          '<span class="usaS"><a href="usa_splash.html"><h5>Murica</h5></a></span>',
+          '<span class="usaS"><a href="usa_splash.html"><h5>America the Beautiful</h5></a></span>',
+          '<span class="usaS"><a href="usa_splash.html"><h5>U.S.A.! U.S.A.! U.S.A.!</h5></a></span>',
+          '<span class="usaS"><a href="usa_splash.html"><h5>South Canada</h5></a></span>'
+        ];
+        s.sort(function() {
+          return 0.5 - Math.random();
+        }) //thanks to Mike (aka Mwinter) :)
+        var sn = readCookie('sen') && readCookie('sen') == s[0] ? s[1] : s[0];
+        document.getElementById('usaS').innerHTML = sn;
+        createCookie('sen', sn)
+      }
+      rs();
+    </script>
+  </span>
+</body>
+
+</html>
